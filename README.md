@@ -4,9 +4,10 @@ If you want to support me, I  really appreciate donations to 0x00000
 # Abbreviations
 I will use the following abbreviations:
 
-**BC** - *Blockchain*
-**BTC** - *Bitcoin (Currency)*
-**ETH** - *Ether (Currncy)*
+- **BC** - *Blockchain*
+- **BTC** - *Bitcoin (Currency)*
+- **ETH** - *Ether (Currency)*
+
 # What is a Hash?
 Hashes are an important concept for understanding how a BC works. A hash function is a mathematical function/ an algorithm that maps data of arbitrary size to data of a fixed size. So whatever we use as input for a hash function, the output will always have the same format. The output of a hash function is called a hash. 
 
@@ -50,4 +51,7 @@ Since a BC will have a lot of blocks, we need a way to identify and distinguish 
 The data part of a block is basically the information we want to store in a block. As you probably know **Bitcoin** was the first blockchain released. It is used to transfer BTC, a *digital currency*. So if **A**lice would like to send **1BTC** to **B**ob, that information would be stored in the data section of a block.
 
 ###### Nonce
-*Nonce* stands for *number once used*. The block number and the data we want to store in a block are sort of fixed values. The block number always depends in the previous block and therefore can't be changed. The block data could be changed, but then we would change the information we store in the block. And we don't want to do that. So if we want to change the hash of a block, we need another variable that can get changed. This is the purpose of the nonce. Why we would want to change the hash of a block I'll explain later. For now just remember that the nonce is the part of a block that will decide, how the hash of a block looks like.
+*Nonce* stands for *number once used*. The block number and the data we want to store in a block are sort of fixed values. The block number always depends on the previous block and therefore can't be changed. The block data could be changed, but then we would change the information we store in the block. And we don't want to do that. So if we want to change the hash of a block, we need another variable that can get changed. This is the purpose of the nonce. Why we would want to change the hash of a block I'll explain later. For now just remember that the nonce is the part of a block that will decide, how the hash of a block looks like.
+
+# Validating and Signing
+Let's get back to **A**lice and **B**ob. As we said, **A**lice want to send 1BTC to **B**ob and that information will be stored in a block.
