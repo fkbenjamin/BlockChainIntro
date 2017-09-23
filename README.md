@@ -7,6 +7,7 @@ I will use the following abbreviations:
 - **BC** - *Blockchain*
 - **BTC** - *Bitcoin (Currency)*
 - **ETH** - *Ether (Currency)*
+- **PoW** - *Proof of Work*
 
 # What is a Hash?
 Hashes are an important concept for understanding how a BC works. A hash function is a mathematical function/ an algorithm that maps data of arbitrary size to data of a fixed size. So whatever we use as input for a hash function, the output will always have the same format. The output of a hash function is called a hash. 
@@ -32,8 +33,8 @@ Since it would take up a lot of space to display and would be hard to read a com
 As you can see, the slightest change to the input changes the whole output. Go ahead and [try it yourself](https://emn178.github.io/online-tools/keccak_256.html)!
 
 # What is a block?
-So now that you know what a hash is and how they are generated we can look into what a *block* is. A block basically constists of 4 things:
-- A hash
+So now that you know what a hash is and how they are generated we can look into what a *block* is. A block basically constists of 5 things:
+- Two hashes
 - A block number
 - Block data
 - A nonce
@@ -42,7 +43,7 @@ So now that you know what a hash is and how they are generated we can look into 
 I will explain each of those in detail, so don't worry :)
 
 ###### Hash
-This Keccak-256 Hash is calculated by a combination of block number, block data and the nonce as input.
+There are two hashes in every block. First there is an 'old' hash that represents the value of the last block before it. The other one is calculated by a combination of the 'old' hash, block number, block data and the nonce as input. Note that this hash will serve as the 'old' hash in the next block.
 
 ###### Block number
 Since a BC will have a lot of blocks, we need a way to identify and distinguish them from each other. This is the block number. It starts with zero and increases by 1 block by block. Ethereum currently reached block number 4,3 million.
@@ -56,4 +57,19 @@ The data part of a block is basically the information we want to store in a bloc
 # Validating and Signing
 Let's get back to **A**lice and **B**ob. As we said, **A**lice wants to send 1BTC to **B**ob and that transaction will be stored in a block. But how do we know if **A**lice even has 1BTC? Somebody needs to **validate** if **A**lice owns in fact 1BTC. That is what **miners** do. They iterate through every block of the blockchain and by processing all of **A**lice's transactions (in- and outgoing), how much BTC she owns.
 
-But why would anyone volunteer and do all that work? Well, they get paid for it. For every block they *mine*, they will receive a certain amount of BTC. Also, if you want your transaction to be processed faster, you can pay the miner an incentive to prioritize your transaction to be added to the next block.
+But why would anyone volunteer and do all that work? Well for every block they *mine*, they are allowed to add a transaction to grant themselves a certain amount of ETH. Also, if you want your transaction to be processed faster, you can pay the miner a transaction fee to prioritize your transaction to be added to the next block.
+
+So miners profit from validating blocks. But how do we make sure they really do their job and not verify false transactions? And who decides which miner gets the reward for a block?  Ethereum uses *Proof of Work* to solve this problem.
+
+The Ethereum network sets requirements to the way a valid hash can look like. So for example, the requirement could be that the hash has to start with four zero's. Therefore the following hash would **not** fulfill the requirements of the blockchain:
+
+```
+c89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6 //hash with no 4 leading zeros
+```
+
+On the other hand, this hash would be accepted by the blockchain:
+```
+0000a3074287b2b33e975468ae613e023e478112530bc19d4187693c13943445 //hash with 4 leading zeros
+```
+
+But how can a miner produce a hash with four leading zeros? Do you remember nonces? We said that the nonce is the only thing in a block a miner can change. And by changing the nonce he changes the hash of that block. The miner will now put effort in finding a nonce that will result in a hash with four leading zeros. There is no formula to calculate such nonce. It is only possible to find them through trial and error. Since this problem is quite hard for miners, it proofs that they took a lot of effort to find the nonce. Actually that effort is so high (and expensive) that it is not attractive for the miner to cheat anymore.
