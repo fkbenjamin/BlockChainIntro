@@ -58,13 +58,13 @@ There are two hashes in every block. First there is an 'old' hash that represent
 Since a BC will have a lot of blocks, we need a way to identify and distinguish them from each other. This is the block number. It starts with zero and increases by 1 block by block. Ethereum currently reached block number 4,3 million.
 
 ###### Block Data
-The data part of a block is basically the information we want to store in a block. As you probably know **Bitcoin** was the first blockchain released. It is used to transfer BTC, a *digital currency*. So if **A**lice would like to send **1BTC** to **B**ob, that information would be stored in the data section of a block.
+The data part of a block is basically the information we want to store in a block. As you probably know **Ethereum** is one of the most popular blockchains available today. It is used to transfer ETH, a *digital currency*. So if **A**lice would like to send **1ETH** to **B**ob, that information would be stored in the data section of a block.
 
 ###### Nonce
 *Nonce* stands for *number once used*. The block number and the data we want to store in a block are sort of fixed values. The block number always depends on the previous block and therefore can't be changed. The block data could be changed, but then we would change the information we store in the block. And we don't want to do that. So if we want to change the hash of a block, we need another variable that can get changed. This is the purpose of the nonce. Why we would want to change the hash of a block I'll explain later. For now just remember that the nonce is the part of a block that will decide, how the hash of a block looks like.
 
 # Validating and Signing
-Let's get back to **A**lice and **B**ob. As we said, **A**lice wants to send 1BTC to **B**ob and that transaction will be stored in a block. But how do we know if **A**lice even has 1BTC? Somebody needs to **validate** if **A**lice owns in fact 1BTC. That is what **miners** do. They iterate through every block of the blockchain and by processing all of **A**lice's transactions (in- and outgoing), how much BTC she owns.
+Let's get back to **A**lice and **B**ob. As we said, **A**lice wants to send 1ETH to **B**ob and that transaction will be stored in a block. But how do we know if **A**lice even has 1ETH? Somebody needs to **validate** if **A**lice owns in fact 1ETH. That is what **miners** do. They iterate through every block of the blockchain and by processing all of **A**lice's transactions (in- and outgoing), how much ETH she owns.
 
 But why would anyone volunteer and do all that work? Well for every block they *mine*, they are allowed to add a transaction to grant themselves a certain amount of ETH. Also, if you want your transaction to be processed faster, you can pay the miner a transaction fee to prioritize your transaction to be added to the next block.
 
