@@ -10,7 +10,7 @@ I will use the following abbreviations:
 - **PoW** - *Proof of Work*
 
 # The blockchain - A distributed database
-The financial crisis of 2007–2008, also known as the global financial crisis and the 2008 financial crisis, is considered by many economists to have been the worst financial crisis since the Great Depression of the 1930s.[https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008] The financial crisis not only ruined the lives of many people world wide it also damaged people's trust in banks. It is probably no incident that shortly after the peak of this financial crisis, a man with the pseudonym *Satoshi Nakamoto* published a white paper on the first blockchain ever - **Bitcoin**. 
+The financial crisis of 2007–2008, also known as the global financial crisis and the 2008 financial crisis, is considered by many economists to have been the worst financial crisis since the Great Depression of the 1930s.[https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008] The financial crisis not only ruined the lives of many people world wide it also damaged people's trust in banks. It's probably no incident that shortly after the peak of this financial crisis, a man with the pseudonym *Satoshi Nakamoto* published a white paper on the first blockchain ever - **Bitcoin**. 
 
 The protocol of Bitcoin is supposed to be a *public, decentralized and open-source* database. That means that everybody can join the system, there is no central entity -like a bank- that governs the system and the source code of the programm is publicly available. 
 
