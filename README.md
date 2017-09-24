@@ -16,6 +16,8 @@ The protocol of Bitcoin is supposed to be a *public, decentralized and open-sour
 
 Since everybody in the network has the same rights and there is no central entity, everybody has its own copy of the database. Note that this means, that also everything that is stored in the blockchain is available for everyone. The common misconception that transactions on the blockchain are anonymous are thereby false. The system is rather transparent.
 
+So let's have a look at how a blockchain works!
+
 # What is a Hash?
 Hashes are an important concept for understanding how a BC works. A hash function is a mathematical function/ an algorithm that maps data of arbitrary size to data of a fixed size. So whatever we use as input for a hash function, the output will always have the same format. The output of a hash function is called a hash. 
 
