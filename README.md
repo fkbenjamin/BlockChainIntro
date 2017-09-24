@@ -85,10 +85,5 @@ But how can a miner produce a hash with four leading zeros? Do you remember nonc
 
 This also solves the question, which miner is allowed to mine the block and therefore claim the reward. They basically race and who finds the fitting nonce first gets the reward. Every other person in the network can easily test if the block is valid by recalculating the hash.
 
-# The blockchain
-By now you should know the basics of how a blockchain works. I will try to summarize them again before we dive into more advanced topics. Note that for completeness I will add some other things here that I couldn't fit above.
-
-A blockchain is a distributed network. In case of Ethereum it is public which means that everyone can join the network. A BC consists of blocks which have been verified and signed by miners. Everyone participating can download a copy of the blockchain and see everything that is stored inside. The common misconception that a blockchain is anonymous is thereby simply false. It is rather the other way around and a blockchain is quite transparent.
-
 
 
