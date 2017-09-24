@@ -1,6 +1,6 @@
 # An Introduction into Blockchain
 I created this repository in order to explain the basics of blockchain to some friends and family. If you have any comments, if I explained something wrong or if you just want to say "Hi", just send me an email to flo.liss@gmail.com
-If you want to support me, I  really appreciate donations to 0x00000
+
 # Abbreviations
 I will use the following abbreviations:
 
