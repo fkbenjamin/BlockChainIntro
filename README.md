@@ -85,5 +85,9 @@ But how can a miner produce a hash with four leading zeros? Do you remember nonc
 
 This also solves the question, which miner is allowed to mine the block and therefore claim the reward. They basically race and who finds the fitting nonce first gets the reward. Every other person in the network can easily test if the block is valid by recalculating the hash.
 
+# Smart contracts
+
+
+
 
 
