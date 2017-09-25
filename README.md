@@ -86,5 +86,14 @@ But how can a miner produce a hash with four leading zeros? Do you remember nonc
 This also solves the question, which miner is allowed to mine the block and therefore claim the reward. They basically race and who finds the fitting nonce first gets the reward. Every other person in the network can easily test if the block is valid by recalculating the hash.
 
 # Wallets and Smart contracts
-So **A**lice wants to send some ETH to **B**ob. But how does she or the blockchain know who **B**ob is on the network? If you have an account at a regular bank, you usually get an *IBAN*, that you can give to people so they know where to send money. With the BC it is similar. Once you joined the network you can create as many *wallets* as you like. Wallets are like bank accounts. A wallet can receive funds and the owner of the account can send funds to other wallets. Easy.
-Technically, wallets are an *asymmetric crypto system*. Without going into much detail, this means you create two keys: A **public key** which is like your IBAN. This is a key you can send to everyone without worrying. The second is a **private key** which is used to unlock your account. You can compare this to the password of your bank account. Only you should know this and if anyone else gets that information, well...your money is most likely gone.
+So **A**lice wants to send some ETH to **B**ob. But how does she or the blockchain know who **B**ob is on the network? If you have an account at a regular bank, you usually get an *IBAN*, that you can give to people so they know where to send money. 
+
+With the BC it is similar. Once you joined the network you can create as many *wallets* as you like. Wallets are like bank accounts. A wallet can receive funds and the owner of the account can send funds to other wallets. Easy.
+Technically, wallets are an *asymmetric crypto system*. Without going into much detail, this means you create two keys: 
+
+-A **public key** which is like your *IBAN*. This is a key you can send to everyone without worrying. 
+
+-A **private key** which is used to unlock your account. You can compare this to the password of your 	bank account. Only you should know this and if anyone else gets that information, well...your money is most likely gone.
+
+Now, there is a second type of account on Ethereum. Those are called **Smart Contracts**. Smart contracts are very similar to wallets. They also have a public key where you can send transactions to. They also can store funds on them and they also can send funds to other accounts. The only difference is, that those accounts are not controlled and managed by a person with the private key, **but by computer code stored in the account**.
+
