@@ -8,6 +8,7 @@ I will use the following abbreviations:
 - **BTC** - *Bitcoin (Currency)*
 - **ETH** - *Ether (Currency)*
 - **PoW** - *Proof of Work*
+- **PoS** - *Proof of Stake*
 - **EVM** - *Ethereum Virtual Machine*
 
 # The blockchain - A distributed database
@@ -123,5 +124,7 @@ If a code never terminates, the miner would'nt be possible to push a block to th
 
 That system is really fair. The more complex a smart contract is, the more you have to pay for it to be executed.
 
-
+# Proof of Work vs. Proof of Stake
+So earlier I explained to you that Ethereum currently uses *PoW* to make sure miners do their job right and don't cheat. But the system of *PoW* has a lot of problems. First of all it is really bad for the environment. The computations made to find the right nonces are completly useless after they are done. And still they take a lot of computing power and thereby electricy to produce. 
+I couldn't find a better source right now, but [vice](https://motherboard.vice.com/en_us/article/d3zn9a/ethereum-mining-transaction-electricity-consumption-bitcoin) claims that Ethereum currently consumes as much electricity as the country of Cyprus.
 
