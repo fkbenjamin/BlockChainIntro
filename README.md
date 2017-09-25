@@ -97,3 +97,7 @@ Technically, wallets are an *asymmetric crypto system*. Without going into much 
 
 Now, there is a second type of account on Ethereum. Those are called **Smart Contracts**. Smart contracts are very similar to wallets. They also have a public key where you can send transactions to. They also can store funds on them and they also can send funds to other accounts. The only difference is, that those accounts are not controlled and managed by a person with the private key, **but by computer code stored in the account**.
 
+The computer code of smart contracts is written in **Solidity**, a programming language espeacially designed for Ethereum. It has a similar syntax to *JavaScript* and is thereby easy to learn if you have some experience in web development. It's most important feature and big difference to Bitcoin's scripting language is that it is *turing-complete*. *Turing completeness* means that it is possible to solve every algorithmic problem possible, assuming you have enough memory / computing power.
+
+
+
