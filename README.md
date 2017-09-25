@@ -128,3 +128,5 @@ That system is really fair. The more complex a smart contract is, the more you h
 So earlier I explained to you that Ethereum currently uses *PoW* to make sure miners do their job right and don't cheat. But the system of *PoW* has a lot of problems. First of all it is really bad for the environment. The computations made to find the right nonces are completly useless after they are done. And still they take a lot of computing power and thereby electricy to produce. 
 I couldn't find a better source right now, but [vice](https://motherboard.vice.com/en_us/article/d3zn9a/ethereum-mining-transaction-electricity-consumption-bitcoin) claims that Ethereum currently consumes as much electricity as the country of Cyprus.
 
+###### So what is Proof of Stake
+Proof of Stake is a different approach that will be introduced to Ethereum in the coming release '*Metropolis*'. Instead of using computing power to make cheating unattractive, the miners have to give a certain amount of ETH into escrow. That means, they'll have to invest money before they are able to mine and only get their funds (and rewards) back, if
