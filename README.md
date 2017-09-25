@@ -119,8 +119,6 @@ contract Simple {
 }
 ```
 
-
-
 If a code never terminates, the miner would'nt be possible to push a block to the blockchain. To solve this, smart contracts cost **gas** to execute. That means, that for every computational step a smart contract's inner logic executes, it has to pay a little fee in ETH. If a smart contract runs out of ETH to fund the execution of it's code the EVM stops the execution and returns an error.
 
 That system is really fair. The more complex a smart contract is, the more you have to pay for it to be executed.
