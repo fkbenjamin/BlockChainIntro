@@ -8,6 +8,7 @@ I will use the following abbreviations:
 - **BTC** - *Bitcoin (Currency)*
 - **ETH** - *Ether (Currency)*
 - **PoW** - *Proof of Work*
+- **EVM** - *Ethereum Virtual Machine*
 
 # The blockchain - A distributed database
 The financial crisis of 2007–2008, also known as the global financial crisis and the 2008 financial crisis, is considered by many economists to have been the worst financial crisis since the Great Depression of the 1930s.[https://en.wikipedia.org/wiki/Financial_crisis_of_2007%E2%80%932008] The financial crisis not only ruined the lives of many people world wide it also damaged people's trust in banks. It's probably no incident that shortly after the peak of this financial crisis, a man with the pseudonym *Satoshi Nakamoto* published a white paper on the first blockchain ever - **Bitcoin**. 
@@ -97,7 +98,9 @@ Technically, wallets are an *asymmetric crypto system*. Without going into much 
 
 Now, there is a second type of account on Ethereum. Those are called **Smart Contracts**. Smart contracts are very similar to wallets. They also have a public key where you can send transactions to. They also can store funds on them and they also can send funds to other accounts. The only difference is, that those accounts are not controlled and managed by a person with the private key, **but by computer code stored in the account**.
 
-The computer code of smart contracts is written in **Solidity**, a programming language espeacially designed for Ethereum. It has a similar syntax to *JavaScript* and is thereby easy to learn if you have some experience in web development. It's most important feature and big difference to Bitcoin's scripting language is that it is *turing-complete*. *Turing completeness* means that it is possible to solve every algorithmic problem possible, assuming you have enough memory / computing power.
+The computer code of smart contracts is written in **Solidity**, a programming language especially designed for Ethereum. It has a similar syntax to *JavaScript* and is thereby easy to learn if you have some experience in web development (and even if you don't **:P** ). It's most important feature and big difference to Bitcoin's scripting language is that it is *turing-complete*. *Turing completeness* means that a programming language is able to reproduce / solve every algorithmic problem possible, assuming you have enough memory / computing power.
+The computer code stored in a smart contract is executed in the so called **Ethereum Virtual Machine**. The EVM is totally isolated from environment it runs on. That means if code is executed on a miners pc, the smart contract has no access to eg. the file system of said computer.
+Since Solidity is turing-complete, it is also possible to create programms that never terminate. For example one could write a programm, that increments a number by one until infinity. Since that code needs to be executed by miners in order to store the result on the blockchain that is a big problem. If a code never terminates, the miner would'nt be possible to push a block to the blockchain. To solve this, smart contracts cost **gas** to execute. That means, that for every computational step a smart contract's inner logic executes, it has to pay a little fee. If a smart contract runs out of Ether to fund the execution of it's code the EVM stops the execution and returns an error. That system is really fair. The more complex a smart contract is, the more you have to pay for it to be executed.
 
 
 
