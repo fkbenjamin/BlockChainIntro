@@ -57,7 +57,7 @@ I will explain each of those in detail, so don't worry :)
 There are two hashes in every block. First there is an 'old' hash that represents the value of the last block before it. The other one is calculated by a combination of the 'old' hash, block number, block data and the nonce as input. Note that this hash will serve as the 'old' hash in the next block.
 
 ###### Block number
-Since a BC will have a lot of blocks, we need a way to identify and distinguish them from each other. This is the block number. It starts with zero and increases by 1 block by block. Ethereum currently reached block number 4,3 million.
+Since a BC will build a chain of blocks, we need to know in what way they are ordered. This is the block number. It starts with zero and increments by 1 block by block. Ethereum currently reached block number 4,3 million.
 
 ###### Block Data
 The data part of a block is basically the information we want to store in a block. As you probably know **Ethereum** is one of the most popular blockchains available today. It is used to transfer ETH, a *digital currency*. So if **A**lice would like to send **1ETH** to **B**ob, that information would be stored in the data section of a block.
