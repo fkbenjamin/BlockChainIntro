@@ -130,3 +130,7 @@ I couldn't find a better source right now, but [vice](https://motherboard.vice.c
 
 ###### So what is Proof of Stake?
 Proof of Stake is a different approach that will be introduced to Ethereum in the coming release '*Metropolis*'. Instead of using computing power to make cheating unattractive, the miners have to give a certain amount of ETH into escrow of a smart contract called *Casper*. That means, they'll have to invest money before they are able to mine and only get their funds (and rewards) back, if their validating and signing of blocks turns out to be true.
+
+# What are zk-snarks?
+
+
