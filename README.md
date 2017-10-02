@@ -120,13 +120,13 @@ contract Simple {
 }
 ```
 
-If a code never terminates, the miner would'nt be possible to push a block to the blockchain. To solve this, smart contracts cost **gas** to execute. That means, that for every computational step a smart contract's inner logic executes, it has to pay a little fee in ETH. If a smart contract runs out of ETH to fund the execution of it's code the EVM stops the execution and returns an error.
+If a code never terminates, the miner would'nt be able to push a block to the blockchain. To solve this, smart contracts cost **gas** to execute. That means, that for every computational step a smart contract's inner logic executes, it has to pay a little fee in ETH. If a smart contract runs out of ETH to fund the execution of it's code the EVM stops the execution and returns an error.
 
-That system is really fair. The more complex a smart contract is, the more you have to pay for it to be executed.
+That system is really fair. The more step a smart contract takes to execute, the more you have to pay for it to be executed.
 
 # Proof of Work vs. Proof of Stake
-So earlier I explained to you that Ethereum currently uses *PoW* to make sure miners do their job right and don't cheat. But the system of *PoW* has a lot of problems. First of all it is really bad for the environment. The computations made to find the right nonces are completly useless after they are done. And still they take a lot of computing power and thereby electricy to produce. 
+Earlier I explained to you that Ethereum currently uses *PoW* to make sure miners do their job right and don't cheat. But the system of *PoW* has a lot of problems. It is really bad for the environment. The computations made to find the right nonces are completly useless after they are done. They don't serve any purpose except for the work you put into it. And still they take a lot of computing power and thereby electricy to produce. 
 I couldn't find a better source right now, but [vice](https://motherboard.vice.com/en_us/article/d3zn9a/ethereum-mining-transaction-electricity-consumption-bitcoin) claims that Ethereum currently consumes as much electricity as the country of Cyprus.
 
 ###### So what is Proof of Stake?
-Proof of Stake is a different approach that will be introduced to Ethereum in the coming release '*Metropolis*'. Instead of using computing power to make cheating unattractive, the miners have to give a certain amount of ETH into escrow. That means, they'll have to invest money before they are able to mine and only get their funds (and rewards) back, if
+Proof of Stake is a different approach that will be introduced to Ethereum in the coming release '*Metropolis*'. Instead of using computing power to make cheating unattractive, the miners have to give a certain amount of ETH into escrow of a smart contract called *Casper*. That means, they'll have to invest money before they are able to mine and only get their funds (and rewards) back, if their validating and signing of blocks turns out to be true.
