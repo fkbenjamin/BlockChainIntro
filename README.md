@@ -21,7 +21,7 @@ Since everybody in the network has the same rights and there is no central entit
 So let's have a look at how a blockchain works!
 
 # What is a Hash?
-Hashes are an important concept for understanding how a BC works. A hash function is a mathematical function/ an algorithm that maps data of arbitrary size to data of a fixed size. So whatever we use as input for a hash function, the output will always have the same format. The output of a hash function is called a hash. 
+Hashes are an important concept for understanding how a BC works. A hash function is a mathematical function / an algorithm that maps data of arbitrary size to data of a fixed size. So whatever we use as input for a hash function, the output will always have the same format. The output of a hash function is called a hash. 
 
 There are many types of hash functions, one of them are cryptographic hash functions. As the name states they are used in cryptography. Cryptographic hash functions have special properties. 
   1) They are *deterministic*. That means that a certain input will always produce the same output.
