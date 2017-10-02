@@ -68,7 +68,7 @@ The data part of a block is basically the information we want to store in a bloc
 # Validating and Signing
 Let's get back to **A**lice and **B**ob. As we said, **A**lice wants to send 1ETH to **B**ob and that transaction will be stored in a block. But how do we know if **A**lice even has 1ETH? Somebody needs to **validate** if **A**lice owns in fact 1ETH. That is what **miners** do. They iterate through every block of the blockchain and by processing all of **A**lice's transactions (in- and outgoing), how much ETH she owns.
 
-But why would anyone volunteer and do all that work? Well for every block they *mine*, they are allowed to add a transaction to grant themselves a certain amount of ETH. Also, if you want your transaction to be processed faster, you can pay the miner a transaction fee to prioritize your transaction to be added to the next block.
+But why would anyone volunteer and do all that work? Well for every block they *mine*, they are allowed to add a transaction to that block to grant themselves a certain amount of ETH. Also, if you want your transaction to be processed faster, you can pay the miner a transaction fee to prioritize your transaction to be added to the next block.
 
 So miners profit from validating blocks. But how do we make sure they really do their job and not verify false transactions? And who decides which miner gets the reward for a block?  Ethereum uses *Proof of Work* to solve this problem.
 
@@ -83,7 +83,7 @@ On the other hand, this hash would be accepted by the blockchain:
 0000a3074287b2b33e975468ae613e023e478112530bc19d4187693c13943445 //hash with 4 leading zeros
 ```
 
-But how can a miner produce a hash with four leading zeros? Do you remember nonces? We said that the nonce is the only thing in a block a miner can change. And by changing the nonce he changes the hash of that block. The miner will now put effort in finding a nonce that will result in a hash with four leading zeros. There is no formula to calculate such nonce. It is only possible to find them through trial and error. Since this problem is quite hard for miners, it proofs that they took a lot of effort to find the nonce. Actually that effort is so high (and expensive) that it is not attractive for the miner to cheat anymore. The process of finding a valid nonce is also called *signing the block*.
+But how can a miner produce a hash with four leading zeros? Do you remember nonces? We said that the nonce is the only thing in a block a miner can change. And by changing the nonce he changes the hash of that block. The miner will now put effort in finding a nonce that will result in a hash with four leading zeros. There is no formula to calculate such nonce since pur hash function is *one-way*. It is only possible to find them through trial and error. Since this problem is quite hard for miners, it proofs that they took a lot of effort to find the nonce. Actually that effort is so high (and expensive) that it is not attractive for the miner to cheat anymore. The process of finding a valid nonce is also called *signing the block*.
 
 This also solves the question, which miner is allowed to mine the block and therefore claim the reward. They basically race and who finds the fitting nonce first gets the reward. Every other person in the network can easily test if the block is valid by recalculating the hash.
 
