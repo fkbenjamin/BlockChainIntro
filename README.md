@@ -102,7 +102,7 @@ Now, there is a second type of account on Ethereum. Those are called **Smart Con
 The computer code of smart contracts is written in **Solidity**, a programming language especially designed for Ethereum. It has a similar syntax to *JavaScript* and is thereby easy to learn if you have some experience in web development (and even if you don't **:P** ). It's most important feature and big difference to Bitcoin's scripting language is that it is *turing-complete*. *Turing completeness* means that a programming language is able to reproduce / solve every algorithmic problem possible, assuming you have enough memory / computing power.
 The computer code stored in a smart contract is executed in the so called **Ethereum Virtual Machine**. The EVM is totally isolated from the environment it runs on. That means if code is executed on a miners pc, the smart contract has no access to eg. the file system of said computer.
 
-Since Solidity is turing-complete, it is also possible to create programms that never terminate. For example one could write a programm, that increments a number by one until infinity. Since that code needs to be executed by miners in order to store the result on the blockchain that is a big problem. 
+Since Solidity is turing-complete, it is also possible to create programms that never terminate. For example one could write a programm, that increments a number by one until infinity. Since that code needs to be executed by miners in order to store the result on the blockchain that is a big problem. They can't let a programm count until infinity, that would literally take **forever ;)** 
 
 ```
 //Example of a smart contract function that never terminates
