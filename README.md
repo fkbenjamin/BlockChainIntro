@@ -16,6 +16,8 @@ The financial crisis of 2007–2008, also known as the global financial crisis a
 
 The protocol of Bitcoin is supposed to be a *public, decentralized and open-source* database. That means that everybody can join the system, there is no central entity -like a bank- that governs the system and the source code of the programm is publicly available. 
 
+![Comparing a centralized and decentralized network](decentralized.png?raw=true "Comparing a centralized and decentralized network")
+
 Since everybody in the network has the same rights and there is no central entity, everybody has its own copy of the database. Note that this means, that also everything that is stored in the blockchain is available for everyone. The common misconception that transactions on the blockchain are anonymous are thereby false. The system is rather transparent.
 
 So let's have a look at how a blockchain works!
