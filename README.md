@@ -137,4 +137,13 @@ Proof of Stake is a different approach that will be introduced to Ethereum in th
 We earlier found out that everything we post on the blockchain is available to the public. But sometimes we don't want to share every specific detail publicly. Sometimes we want to proof that we did something over the blockchain without telling everybody how we did it. 
 Let's say **A**lice works for a company that sells repacked *Magic - The Gathering* (**Robert**, this is for you ;) ) booster packs. They advertise that the cards in those repacks have a minimum value of 5$. 
 **B**ob wants to buy some of those booster packs but is scepticle if they tell the truth and it is worth his money. He asks them if they can prove that the value is over 5$. Well they could tell him what cards are in the booster so he can check the price. But that would take the fun out of opening the booster packs. Otherwhise they couldn't prove it.
-They would need to provide what is called a *zero-knowledge proof*. That is a proof that doesn't require to share the actual information. **zk-SNARK's** are a variant of zero-knowledge proofs. The acronym stands for *zero-knowledge Succinct Non-interactive ARgument of Knowledge*.
+They would need to provide what is called a *zero-knowledge proof*. That is a proof that doesn't require to share the actual information. **zk-SNARK's** are a variant of zero-knowledge proofs. The acronym stands for *zero-knowledge Succinct Non-interactive ARgument of Knowledge*. zk-Snark's use mathematical formulas to generate a proof without disclosing the actual knowledge.
+Let's use a simple example to explain how it could work. I am sure you know those 'Where's Waldo' pictures. 
+
+![Where is Waldo?](wiw.png?raw=true "Try to find Waldo!")
+
+Try to find Waldo! Now if I tell you I found Waldo but don't want to tell you where he is, would you believe me? I can prove it to you. 
+
+![There is Waldo!](waldo.jpg?raw=true "There he is!")
+
+
