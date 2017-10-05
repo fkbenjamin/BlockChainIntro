@@ -148,3 +148,4 @@ Try to find Waldo! Now if I tell you I found Waldo but don't want to tell you wh
 
 Here he is. You can see, that I found him but I didn't tell you where he is so you can go and look for yourself ;)
 
+Sadly, Ethereum currently isn't supporting zk-Snarks. But there is hope! They should be implemented during the Metropolis-Release.
