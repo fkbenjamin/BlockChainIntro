@@ -146,4 +146,5 @@ Try to find Waldo! Now if I tell you I found Waldo but don't want to tell you wh
 
 ![There is Waldo!](waldo.jpg?raw=true "There he is!")
 
+Here he is. You can see, that I found him but I didn't tell you where he is so you can go and look for yourself ;)
 
