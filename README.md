@@ -133,8 +133,8 @@ I couldn't find a better source right now, but [vice](https://motherboard.vice.c
 ###### So what is Proof of Stake?
 Proof of Stake is a different approach that will be introduced to Ethereum in the coming release '*Metropolis*'. Instead of using computing power to make cheating unattractive, the miners have to give a certain amount of ETH into escrow of a smart contract called *Casper*. That means, they'll have to invest money before they are able to mine and only get their funds (and rewards) back, if their validating and signing of blocks turns out to be true.
 
-# What are zk-snarks?
+# What are zk-SNARK's?
 We earlier found out that everything we post on the blockchain is available to the public. But sometimes we don't want to share every specific detail publicly. Sometimes we want to proof that we did something over the blockchain without telling everybody how we did it. 
 Let's say **A**lice works for a company that sells repacked *Magic - The Gathering* (**Robert**, this is for you ;) ) booster packs. They advertise that the cards in those repacks have a minimum value of 5$. 
 **B**ob wants to buy some of those booster packs but is scepticle if they tell the truth and it is worth his money. He asks them if they can prove that the value is over 5$. Well they could tell him what cards are in the booster so he can check the price. But that would take the fun out of opening the booster packs. Otherwhise they couldn't prove it.
-They would need to provide what is called a *zero-knowledge proof*. That is a proof that doesn't require to share the actual information.
+They would need to provide what is called a *zero-knowledge proof*. That is a proof that doesn't require to share the actual information. **zk-SNARK's** are a variant of zero-knowledge proofs. The acronym stands for *zero-knowledge Succinct Non-interactive ARgument of Knowledge*.
