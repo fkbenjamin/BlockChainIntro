@@ -140,7 +140,7 @@ Let's say **A**lice works for a company that sells repacked *Magic - The Gatheri
 They would need to provide what is called a *zero-knowledge proof*. That is a proof that doesn't require to share the actual information. **zk-SNARK's** are a variant of zero-knowledge proofs. The acronym stands for *zero-knowledge Succinct Non-interactive ARgument of Knowledge*. zk-Snark's use mathematical formulas to generate a proof without disclosing the actual knowledge.
 Let's use a simple example to explain how it could work. I am sure you know those 'Where's Waldo' pictures. 
 
-![Where is Waldo?](wiw.png?raw=true "Try to find Waldo!")
+![Where is Waldo?](wiw.jpg?raw=true "Try to find Waldo!")
 
 Try to find Waldo! Now if I tell you I found Waldo but don't want to tell you where he is, would you believe me? I can prove it to you. 
 
