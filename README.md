@@ -92,7 +92,7 @@ This also solves the question, which miner is allowed to mine the block and ther
 # The Chain and why it is (almost) impossible to cheat
 You now know what a block is and how miner validate a block. Let's have a look how those blocks build a chain and how this chain prevents manipulation. We said that each block has a number to know where in the chain it is and a hash to validate it's content. That being said, here is a picture, how a block chain may look.
 
-![A chain of blocks](blockchain1.png?raw=true "A chain of blocks")
+![A chain of blocks](blockchain2.png?raw=true "A chain of blocks")
 
 # Wallets and Smart contracts
 So **A**lice wants to send some ETH to **B**ob. But how does she or the blockchain know who **B**ob is on the network? If you have an account at a regular bank, you usually get an *IBAN (International Bank Account Number)*, that you can give to people so they know where to send money. 
