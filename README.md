@@ -96,7 +96,9 @@ You now know what a block is and how miner validate a block. Let's have a look h
 
 Let's say two miner want to add a new block to the chain. This would look like the following. 
 
-![Miner add blocks](bcminerblock.jpg?raw=true "Miner add blocks")
+![Miner add blocks](bcminerblock1.jpg?raw=true "Miner add blocks")
+
+
 
 
 # Wallets and Smart contracts
