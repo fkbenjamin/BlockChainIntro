@@ -94,6 +94,11 @@ You now know what a block is and how miner validate a block. Let's have a look h
 
 ![A chain of blocks](blockchain.jpg?raw=true "A chain of blocks")
 
+Let's say two miner want to add a new block to the chain. This would look like the following. 
+
+![Miner add blocks](bcminerblock.jpg?raw=true "Miner add blocks")
+
+
 # Wallets and Smart contracts
 So **A**lice wants to send some ETH to **B**ob. But how does she or the blockchain know who **B**ob is on the network? If you have an account at a regular bank, you usually get an *IBAN (International Bank Account Number)*, that you can give to people so they know where to send money. 
 
