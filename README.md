@@ -108,6 +108,9 @@ In this case the chain of miner **A** was faster in mining new blocks and all mi
 
 To make you understand why this makes cheating really hard, let's try to cheat! Let's say that **A**lice did send 1 *million* ETH to **B**ob in block #4. Back then she didn't know that ETH will be worth that much money one day. She wishes that this transaction would never have happened. She figures out that if she just mines her *own* block #4 without the transaction and broadcasts it to all other miners, they might continue to work on her branch and she would be rich. Let's have a look at how this would look like.
 
+![Alice cheats](cheating1.jpg?raw=true "Alice cheats")
+
+
 
 
 # Wallets and Smart contracts
