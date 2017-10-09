@@ -90,7 +90,7 @@ But how can a miner produce a hash with four leading zeros? Do you remember nonc
 This also solves the question, which miner is allowed to mine the block and therefore claim the reward. They basically race and who finds the fitting nonce first and shares it on the network the fastest gets the reward. Every other person in the network can easily test if the block is valid by recalculating the hash.
 
 # The Chain and why it is (almost) impossible to cheat
-You now know what a block is and how miner validate a block. Let's have a look how those blocks build a chain and how this chain prevents manipulation. We said that each block has a number to know where in the chain it is and a hash to validate it's content. That being said, here is a picture, how a block chain may look.
+You now know what a block is and how miner validate a block. Let's have a look how those blocks build a chain and how this chain prevents manipulation. We said that each block has a number to know where in the chain it is and a hash to validate it's content. That being said, here is a picture, how a block chain may look like.
 
 ![A chain of blocks](blockchain.jpg?raw=true "A chain of blocks")
 
