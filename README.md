@@ -98,7 +98,11 @@ Let's say two miner want to add a new block to the chain. Thereby they are gener
 
 ![Miner add blocks](bcminerblock1.jpg?raw=true "Miner add blocks")
 
-As we already said, both miners are now racing to broadcast their block to all other nodes. This is really important because currently both miners submitted a valid block and there can only be one. Otherwhise the blockchain would divide and we would have two branches with different states. Once a miner has broadcasted it's block to other nodes (and other miners especially) they will work on his copy of the blockchain. This is the reason, because there is a rule implemented in the blockchain software. The rule states, that miners should always work on the longest branch of the blockchain they know.
+As we already said, both miners are now racing to broadcast their block to all other nodes. This is really important because currently both miners submitted a valid block and there can only be one. Otherwhise the blockchain would divide and we would have two branches with different states. Once a miner has broadcasted it's block to other nodes (miners) they will work on his copy of the blockchain. This is the reason, because there is a rule implemented in the blockchain software. The rule states, that miners should always work on the longest branch of the blockchain they know.
+
+Since both miners are broadcasting their branch of the blockchain, there will be miners working on the blockchain of miner **A** and miners working on the blockchain of miner **B**. This will result in the following situation.
+
+![Blockchain Branches](bcminerblocksequel.jpg?raw=true "Blockchain Branches A and B")
 
 
 # Wallets and Smart contracts
