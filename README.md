@@ -174,6 +174,6 @@ Try to find Waldo! Now if I tell you I found Waldo but don't want to tell you wh
 
 ![There is Waldo!](waldo.jpg?raw=true "There he is!")
 
-Here he is. You can see, that I found him but I didn't tell you where he is so you can go and look for yourself ;)
+Here he is. You can see, that I found him but I didn't tell you where he is so you can go and look for yourself ;) Now a zk-SNARK on Ethereum wouldn't show you a photoshopped picture of waldo, but the basic idea is the same. I proofed something to you without disclosing the actual information.
 
 Sadly, Ethereum currently isn't supporting zk-Snarks. But there is hope! They should be implemented during the Metropolis-Release.
