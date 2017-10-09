@@ -118,7 +118,7 @@ Gladly **A**lice will most likely not be able to this. As you know, every block 
 
 
 # Wallets and Smart contracts
-So **A**lice wants to send some ETH to **B**ob. But how does she or the blockchain know who **B**ob is on the network? If you have an account at a regular bank, you usually get an *IBAN (International Bank Account Number)*, that you can give to people so they know where to send money. 
+Back to not-cheating **A**lice: she wants to send some ETH to **B**ob. But how does she or the blockchain know who **B**ob is on the network? If you have an account at a regular bank, you usually get an *IBAN (International Bank Account Number)*, that you can give to people so they know where to send money. 
 
 With the BC it is similar. Once you joined the network you can create as many *wallets* as you like. Wallets are like bank accounts. A wallet can receive funds and the owner of the account can send funds to other wallets. Easy. Just bare in mind that since the blockchain is public, not only you but everyone can see how much money is in your wallet!
 Technically, wallets are an *asymmetric crypto system*. Without going into much detail, this means you create two keys: 
