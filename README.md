@@ -104,6 +104,8 @@ Since both miners are broadcasting their branch of the blockchain, there will be
 
 ![Blockchain Branches](bcminerblocksequel.jpg?raw=true "Blockchain Branches A and B")
 
+In this case the chain of miner **A** was faster in mining new blocks and all miners who receive this broadcasted version of the blockchain will continue to work on it. Miner **B** was *"unlucky"* and his version will be disregarded. He will receive no reward and has to continue to work on the version of miner **A**.
+
 
 # Wallets and Smart contracts
 So **A**lice wants to send some ETH to **B**ob. But how does she or the blockchain know who **B**ob is on the network? If you have an account at a regular bank, you usually get an *IBAN (International Bank Account Number)*, that you can give to people so they know where to send money. 
