@@ -110,7 +110,10 @@ To make you understand why this makes cheating really hard, let's try to cheat! 
 
 ![Alice cheats](cheating1.jpg?raw=true "Alice cheats")
 
-As you probably already realized, this will not work. **A**lice new BC is not the longest chain available for other miners. They will disregard he attempt to cheat. **A**lice realizes that she needs to provide the longest chain on the network and still needs to put her block #4 in there. If she would manage to do that, the network would acknowledge her chain and her problem would be solved. 
+As you probably already realized, this will not work. **A**lice new BC is not the longest chain available for other miners. They will disregard the attempt to cheat.
+**A**lice realizes that she needs to provide the longest chain on the network and still needs to put her block #4 in there. If she would manage to do that, the network would acknowledge her chain and her problem would be solved. 
+
+Gladly **A**lice will most likely not be able to this. As you know, every block needs to fulfill requirements by **PoW** to be accepted. This also means that for every block **A**lice want's to add to her *cheat BC* she needs to calulate the fitting hash. Let's say the original blockchain has 500 blocks right now. That means **A**lice could copy the 3 original blocks and would have to do the **PoW** for 497 blocks to reach the same length than the original chain. But while she is doing this the rest of the network will create new blocks and make the original chain even longer. Thus making it impossible for **A**lice to ever reach a longer, validated chain than the original one. Well, **almost** impossible. If she would have more computing power than the rest of the network combined, she could in theory cheat. This is also called the **51% Attack**, since she would need to own 51% of the network's computing power.
 
 
 
