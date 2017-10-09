@@ -96,7 +96,7 @@ You now know what a block is and how miner validate a block. Let's have a look h
 
 Let's say two miner want to add a new block to the chain. Thereby they are generating two possible branches of the blockchain. This would look like the following. 
 
-![Miner add blocks](bcminerblock1.jpg?raw=true "Miner add blocks")
+![Miner add blocks](bcminerblock2.jpg?raw=true "Miner add blocks")
 
 As we already said, both miners are now racing to broadcast their block to all other nodes. This is really important because currently both miners submitted a valid block and there can only be one. Otherwhise the blockchain would divide and we would have two branches with different states. Once a miner has broadcasted it's block to other nodes (miners) they will work on his copy of the blockchain. This is the reason, because there is a rule implemented in the blockchain software. The rule states, that miners should always work on the longest branch of the blockchain they know.
 
