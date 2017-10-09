@@ -155,7 +155,7 @@ If a code never terminates, the miner would'nt be able to push a block to the bl
 That system is really fair. The more step a smart contract takes to execute, the more you have to pay for it to be executed.
 
 # Proof of Work vs. Proof of Stake
-Earlier I explained to you that Ethereum currently uses *PoW* to make sure miners do their job right and don't cheat. But the system of *PoW* has a lot of problems. It is really bad for the environment. The computations made to find the right nonces are completly useless after they are done. They don't serve any purpose except for the work you put into it. And still they take a lot of computing power and thereby electricy to produce. 
+Earlier I explained to you that Ethereum currently uses *PoW* to make sure miners do their job right and don't cheat. But the system of *PoW* has a lot of problems like that it is really bad for the environment. The computations made to find the right nonces are completly useless after they are done. They don't serve any purpose except for the work you put into it. And still they take a lot of computing power and thereby electricy to produce. 
 I couldn't find a better source right now, but [vice](https://motherboard.vice.com/en_us/article/d3zn9a/ethereum-mining-transaction-electricity-consumption-bitcoin) claims that Ethereum currently consumes as much electricity as the country of Cyprus.
 
 ###### So what is Proof of Stake?
