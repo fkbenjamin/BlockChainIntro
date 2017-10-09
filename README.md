@@ -110,6 +110,7 @@ To make you understand why this makes cheating really hard, let's try to cheat! 
 
 ![Alice cheats](cheating1.jpg?raw=true "Alice cheats")
 
+As you probably already realized, this will not work. **A**lice new BC is not the longest chain available for other miners. They will disregard he attempt to cheat. **A**lice realizes that she needs to provide the longest chain on the network and still needs to put her block #4 in there. 
 
 
 
