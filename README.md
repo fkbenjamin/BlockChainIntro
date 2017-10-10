@@ -159,7 +159,7 @@ Earlier I explained to you that Ethereum currently uses *PoW* to make sure miner
 I couldn't find a better source right now, but [vice](https://motherboard.vice.com/en_us/article/d3zn9a/ethereum-mining-transaction-electricity-consumption-bitcoin) claims that Ethereum currently consumes as much electricity as the country of Cyprus.
 
 ###### So what is Proof of Stake?
-Proof of Stake is a different approach that will be introduced to Ethereum in the coming release '*Metropolis*'. Instead of using computing power to make cheating unattractive, the miners have to give a certain amount of ETH into escrow of a smart contract called *Casper*. That means, they'll have to invest money before they are able to mine and only get their funds (and rewards) back, if their validating and signing of blocks turns out to be true.
+Proof of Stake is a different approach that will be introduced to Ethereum in the coming release '*Metropolis*'. Instead of using computing power to make cheating unattractive, the miners have to give a certain amount of ETH into escrow of a smart contract called *Casper*. That means, they'll have to invest money before they are able to mine and only get their funds (and rewards) back, if their validating and signing of blocks turns out to be true. The more ETH you *stake* the higher is your chance to mine a block.
 
 # What are zk-SNARK's?
 We earlier found out that everything we post on the blockchain is available to the public. But sometimes we don't want to share every specific detail publicly. Sometimes we want to proof that we did something over the blockchain without telling everybody how we did it. 
